@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact – Starbox Coffee</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <input type="checkbox" id="nav-toggle" />
+
+  <header>
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <img src="images/icon/logo-removebg.png" alt="Starbox Logo" />
+        <span>Star<em>box</em></span>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="products.html">Menu</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+      <label class="hamburger" for="nav-toggle">
+        <span></span><span></span><span></span>
+      </label>
+    </div>
+    <div class="mobile-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="products.html">Menu</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <h1>Get in Touch</h1>
+    <p>We'd love to hear from you — visit us, call, or send a message.</p>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="contact-grid">
+
+        <div>
+          <p class="section-label">Find Us</p>
+          <h2>Location &amp; Hours</h2>
+          <p style="margin-bottom:28px;">Our flagship is in Tagum City and we're always happy to walk-ins. Reach us by phone or email for anything else.</p>
+
+          <div class="contact-detail">
+            <div class="contact-icon">
+              <img src="images/icon/pin.png" alt="pin icon">
+            </div>
+            <div>
+              <h4>Address</h4>
+              <p>123 Malami Street, Mabuhay Road<br />Davao City</p>
+            </div>
+          </div>
+
+          <div class="contact-detail">
+            <div class="contact-icon">
+              <img src="images/icon/phone-call.png" alt="phone icon">
+            </div>
+            <div>
+              <h4>Phone</h4>
+              <p>+63 908 818 4444<br />+63 930 565 8511</p>
+            </div>
+          </div>
+
+          <div class="contact-detail">
+            <div class="contact-icon">
+              <img src="images/icon/email.png" alt="email icon">
+            </div>
+            <div>
+              <h4>Email</h4>
+              <p>starboxcoffee@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="hours-box">
+            <h4>Opening Hours</h4>
+            <div class="hr-row">
+              <span class="hr-day">Monday – Friday</span>
+              <span class="hr-time">7:00 AM – 9:00 PM</span>
+            </div>
+            <div class="hr-row">
+              <span class="hr-day">Saturday</span>
+              <span class="hr-time">8:00 AM – 10:00 PM</span>
+            </div>
+            <div class="hr-row">
+              <span class="hr-day">Sunday</span>
+              <span class="hr-time">8:00 AM – 8:00 PM</span>
+            </div>
+            <div class="hr-row">
+              <span class="hr-day">Public Holidays</span>
+              <span class="hr-time">9:00 AM – 6:00 PM</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-box">
+          <h3>Send a Message</h3>
+          <p>We reply within 6-7 business days.</p>
+
+          <form>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="fname" placeholder="Juan"/>
+              </div>
+              <div class="form-group">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lname" placeholder="Dela Cruz"/>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com"/>
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <select id="subject" name="subject">
+                <option>Select a topic…</option>
+                <option>General Enquiry</option>
+                <option>Catering / Events</option>
+                <option>Feedback</option>
+                <option>Careers</option>
+                <option>Other</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="How can we help?"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-green" style="width:100%;">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="background:#fff;">
+    <div class="container">
+      <p class="section-label">All Branches</p>
+      <h2>Our Locations</h2>
+      <div class="locations-grid">
+        <article class="loc-card">
+          <h4>Davao City</h4>
+          <p class="loc-addr">123 Malami Street, Mabuhay Road</p>
+          <p class="loc-time">7AM – 9PM Daily</p>
+        </article>
+        <article class="loc-card">
+          <h4>General Santos City</h4>
+          <p class="loc-addr">456 Binibini Street, Makagwapo Road</p>
+          <p class="loc-time">7AM – 10PM Daily</p>
+        </article>
+        <article class="loc-card">
+          <h4>Cagayan de Oro City</h4>
+          <p class="loc-addr">Corrales Ave, near Xavier University</p>
+          <p class="loc-time">6:30AM – 9PM Weekdays</p>
+        </article>
+        <article class="loc-card">
+          <h4>Zamboanga City</h4>
+          <p class="loc-addr">Don Alfaro St, Tetuan,</p>
+          <p class="loc-time">7AM – 11PM Daily</p>
+        </article>
+        <article class="loc-card">
+          <h4>Pasay / MOA</h4>
+          <p class="loc-addr">Mall of Asia Complex</p>
+          <p class="loc-time">10AM – 10PM Daily</p>
+        </article>
+        <article class="loc-card">
+          <h4>San Juan</h4>
+          <p class="loc-addr">Ortigas Ave Extension</p>
+          <p class="loc-time">8AM – 9PM Daily</p>
+        </article>
+        <article class="loc-card">
+          <h4>Mandaluyong</h4>
+          <p class="loc-addr">Shaw Blvd, near EDSA MRT</p>
+          <p class="loc-time">7AM – 9PM Daily</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span style="font-family:'Playfair Display',serif; font-size:1.3rem; color:#fff;">Star<em style="font-style:normal;color:#c9a227;">box</em></span>
+        <p>Seven locations across Mindanao. Brewed with care since 2021.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Follow us</h4>
+        <ul>
+          <li><a href="https://www.instagram.com">Instagram</a></li>
+          <li><a href="https://web.facebook.com">Facebook</a></li>
+          <li><a href="https://x.com/">X</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Pages</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="products.html">Menu</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <div class="footer-contact-row">123 Malami Street, Tagum City</div>
+        <div class="footer-contact-row">+63 9305 658 511</div>
+        <div class="footer-contact-row">starboxcoffee@gmail.com</div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Starbox Coffee. This is for a school project. Not affiliated with Starbucks.</p>
+      <div class="footer-links">
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
