@@ -275,7 +275,7 @@ section{
 }
 
 .card:hover { 
-  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.40);
 }
 
 .card-icon { 
@@ -396,7 +396,7 @@ section{
 }
 
 .review-card:hover { 
-  background: rgba(255,255,255,0.1); 
+  background: rgba(255, 255, 255, 0.282); 
 }
 
 .stars { 
@@ -472,7 +472,7 @@ section{
 }
 
 .product-card:hover { 
-  box-shadow: 0 4px 16px rgba(0,0,0,0.1); 
+  box-shadow: 0 4px 24px rgba(0,0,0,.70); 
 }
 
 .product-top {
@@ -535,7 +535,7 @@ section{
 }
 
 .team-card:hover { 
-  box-shadow: 0 4px 16px rgba(0,0,0,0.1); 
+  box-shadow: 0 4px 16px rgba(0,0,0,0.40); 
 }
 
 .team-avatar img {
@@ -705,7 +705,7 @@ section{
   transition: box-shadow 0.2s;
 }
 .loc-card:hover { 
-  box-shadow: 0 4px 16px rgba(0,0,0,0.08); 
+  box-shadow: 0 4px 16px rgba(0,0,0,0.40); 
 }
 .loc-card h4 { 
   font-size: 0.95rem; 
