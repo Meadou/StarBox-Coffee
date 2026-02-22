@@ -413,8 +413,8 @@ section{
 
 .author { 
   display: flex; 
-  align-items: 
-  center; gap: 10px;
+  align-items: center; 
+  gap: 10px;
   margin-top: auto;
 }
 .author-initial {
@@ -469,6 +469,8 @@ section{
   width: 280px;
   min-width: 280px;
   max-width: 280px;
+  display: flex;
+  flex-direction: column;
 }
 
 .product-card:hover { 
@@ -501,6 +503,9 @@ section{
 }
 
 .product-body { 
+  display: flex;
+  flex-direction: column;
+  flex: 1;
   padding: 18px 16px;
 }
 .product-body h3 { 
@@ -516,6 +521,7 @@ section{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: auto;
 }
 
 .team-grid {
@@ -703,6 +709,8 @@ section{
   border-radius: 8px;
   padding: 20px;
   transition: box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
 }
 .loc-card:hover { 
   box-shadow: 0 4px 16px rgba(0,0,0,0.40); 
@@ -720,6 +728,8 @@ section{
   font-size: 0.8rem; 
   color: #00704a; 
   font-weight: 700; 
+  display: flex;
+  margin-top: auto;
 }
 
 .newsletter {
